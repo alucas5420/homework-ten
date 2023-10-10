@@ -1,0 +1,55 @@
+.nav-holder {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+.nav-holder nav {
+  width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: solid black 2px;
+  color: black;
+}
+.nav-holder nav .words {
+  margin: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: black;
+  letter-spacing: 1px;
+}
+.nav-holder nav .words .logo {
+  width: 92px;
+  height: 42px;
+  outline: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.nav-holder nav .words a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-holder {
+    font-size: 10px;
+  }
+  .nav-holder .nav {
+    font-size: 10px;
+  }
+}
